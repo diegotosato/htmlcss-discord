@@ -1,0 +1,231 @@
+/* Generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cl-white: white;
+    --bg-jumbo: #3161e0;
+    --cl-darker: #23272a;
+    --cl-lightblue: #8ea1e1;
+    --bgc-section: #f6f6f6;
+}
+
+
+/* debug */
+.debug * {
+    border: 1px dashed black;
+}
+
+
+/* utilities */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.small_container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.bgc_gray {
+    background-color: var(--bgc-section);
+}
+
+.bgc_yellow {
+    background-color: yellow;
+}
+
+/* header */
+
+header {
+    height: 84px;
+    background-color: var(--bg-jumbo);
+}
+
+.menu {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo_discord {
+    width: 130px;
+    height: 40px;
+    background-color: var(--cl-white);
+}
+
+.nav {
+    width: 530px;
+    height: 40px;
+    background-color: var(--cl-white);
+}
+
+.access {
+    width: 75px;
+    height: 40px;
+    background-color: var(--cl-white);
+}
+
+
+
+/* main */
+
+/* jumbotron */
+.jumbotron {
+    height: 540px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo_content {
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+.main_title {
+    width: 620px;
+    height: 80px;
+    background-color: var(--cl-white);
+}
+
+.main_paragraph {
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+
+.buttons {
+    gap: 5%;
+}
+
+.download_button {
+    width: 240px;
+    height: 60px;
+    background-color: var(--cl-darker);
+}
+
+.browser_button {
+    width: 320px;
+    height: 60px;
+    background-color: var(--cl-darker);
+}
+
+
+/* section */
+section {
+    padding: 140px 0;
+    align-items: center;
+}
+
+.content {
+    height: 470px;
+    background-color: lightpink;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_img {
+    width: 650px;
+    height: 390px;
+    background-color: var(--cl-darker);
+}
+
+.content_text {
+    width: 380px;
+    height:450px;
+    background-color: var(--cl-darker);
+}
+
+
+/* technology section */
+.tech_title {
+    height: 65px;
+    width: 1000px;
+    background-color: var(--cl-darker);
+    margin-bottom: 20px;
+}
+
+.tech_paragraph {
+    height: 65px;
+    width: 1000px;
+    background-color: var(--cl-darker);
+    margin-bottom: 50px;
+}
+
+.tech_img {
+    width: 100%;
+    height: 580px;
+    background-color: red;
+    margin-bottom: 50px;
+}
+
+.tech_fancy {
+    width: 100%;
+    height: 100px;
+    background-color: var(--cl-darker);
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+footer {
+    height: 660px;
+    background-color: var(--cl-darker);
+    align-items: center;
+}
+
+.about {
+    height: 400px;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+
+.language {
+    width: 300px;
+    height: 180px;
+    background-color: var(--bgc-section);
+}
+
+.about_side{
+    width: 820px;
+}
+
+.about_column {
+    width: 25%;
+    height: 100%;
+    background-color: var(--bgc-section);
+}
+
+.register {
+    height: 90px;
+    background-color: blue;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.register_button {
+    width: 75px;
+    height: 40px;
+    background-color: var(--cl-white);
+}
