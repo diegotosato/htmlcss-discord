@@ -14,11 +14,31 @@
     --bgc-section: #f6f6f6;
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+}
+
+img{
+    display: block;
+}
 
 /* debug */
 .debug * {
     border: 1px dashed black;
 }
+
 
 
 /* utilities */
@@ -53,11 +73,11 @@
     background-color: yellow;
 }
 
-.bgc-white{
+.bgc-white {
     background-color: var(--cl-white);
 }
 
-.bgc-darker{
+.bgc-darker {
     background-color: var(--cl-darker);
 }
 
@@ -73,7 +93,7 @@
     border-style: none;
 }
 
-.button-txt-w{
+.button-txt-w {
     color: var(--cl-white);
 }
 
@@ -88,10 +108,6 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-}
-
-#logo_discord {
-    display: block;
 }
 
 ul {
@@ -121,24 +137,19 @@ li a:hover {
     height: 620px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    justify-content: center;
-    align-items: center;
+    padding-top: 120px;
 }
 
 .jumbo_content {
-    h1{
-        font-weight: 700;
-        font-size: 4rem;
+    h1 {
         color: var(--cl-white);
         margin-bottom: 50px;
         text-align: center;
     }
 
-    p{
+    p {
         text-align: center;
         color: var(--cl-white);
-        font-size: 1.4rem;
-        line-height: 2.3rem;
         margin-bottom: 30px;
     }
 }
@@ -165,26 +176,19 @@ li a:hover {
 /* section */
 section {
     padding: 140px 0;
-    align-items: center;
 }
 
 .content {
-    height: 470px;
-    background-color: lightpink;
     justify-content: space-between;
-    align-items: center;
-}
-
-.content_img {
-    width: 650px;
-    height: 390px;
-    background-color: var(--cl-darker);
+    align-items: flex-start;
 }
 
 .content_text {
-    width: 380px;
-    height: 450px;
-    background-color: var(--cl-darker);
+    margin-top: 30px;
+    width: 30%;
+    h2, p{
+        color: var(--cl-darker);
+    }
 }
 
 
