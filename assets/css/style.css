@@ -93,6 +93,7 @@ ul {
 .small-button {
     padding: 0.6rem;
     border-radius: 50px;
+    border-style: none;
 }
 
 .big-button {
@@ -132,12 +133,6 @@ header {
     }
 
 }
-
-
-.access {
-    border-style: none;
-}
-
 
 
 /* main */
@@ -239,7 +234,6 @@ footer {
 }
 
 .about {
-    background-color: blue;
     justify-content: space-between;
 }
 
@@ -292,6 +286,7 @@ footer {
     a{
         text-decoration: none;
         color: var(--cl-white);
+        font-weight: 300;
     }
 }
 
@@ -300,23 +295,9 @@ footer {
     font-weight: 800;
 }
 
-
-
-
-
-
-
-
 .register {
-    height: 90px;
-    background-color: blue;
     justify-content: space-between;
-    margin-top: 20px;
-    align-items: flex-end;
-}
-
-.register_button {
-    width: 75px;
-    height: 40px;
-    background-color: var(--cl-white);
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid var(--cl-lightblue);
 }
