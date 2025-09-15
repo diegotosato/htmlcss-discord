@@ -181,6 +181,7 @@ section {
 
 .content_img{
     width: 70%;
+    justify-content: flex-end;
 }
 
 .content_text {
