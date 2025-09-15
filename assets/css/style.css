@@ -8,7 +8,7 @@
 
 :root {
     --cl-white: white;
-    --bg-jumbo: #3161e0;
+    --bg-jumbo: #255ee9;
     --cl-darker: #23272a;
     --cl-lightblue: #8ea1e1;
     --bgc-section: #f6f6f6;
@@ -54,18 +54,18 @@ button:hover {
     mask-image: url(../img/wave.svg);
 }
 
-.mirror{
-    transform: scaleX(1);
+.mirror {
     rotate: 180deg;
 }
+
 /* #endregion Generics */
 
 /* #region Degub */
 .debug * {
     border: 1px dashed black;
 }
-/* #endregion Debug */
 
+/* #endregion Debug */
 
 /* #region Utilities */
 
@@ -120,6 +120,10 @@ button:hover {
     border-style: none;
 }
 
+.big-button:hover {
+    box-shadow: 0 0 10px var(--cl-darker);
+}
+
 .button-txt-w {
     color: var(--cl-white);
 }
@@ -153,8 +157,16 @@ header {
 
 }
 
-/* #endregion Header */
+.logo_discord {
+    cursor: pointer;
+}
 
+.access-button:hover {
+    background-color: var(--cl-lightblue);
+    color: var(--cl-white);
+}
+
+/* #endregion Header */
 
 /* #region Main */
 
@@ -240,7 +252,6 @@ section {
 
 /* #endregion Main */
 
-
 /* #region Footer */
 footer {
     height: 660px;
@@ -274,18 +285,22 @@ footer {
     }
 }
 
-.arrow-down {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
+select {
+    font-size: 1.2rem;
+    border-style: none;
+    color: var(--cl-white);
+    background-color: var(--cl-darker);
 }
 
 .socials {
     color: var(--cl-white);
     font-size: 1.5rem;
     gap: 30px;
+
+    i:hover {
+        color: var(--cl-lightblue);
+        cursor: pointer;
+    }
 }
 
 .about_side {
@@ -306,7 +321,8 @@ footer {
     }
 
     a:hover {
-        text-decoration: underline;
+        color: var(--cl-lightblue);
+        font-weight: 500;
     }
 }
 
@@ -320,6 +336,11 @@ footer {
     margin-top: 50px;
     padding-top: 50px;
     border-top: 1px solid var(--cl-lightblue);
+}
+
+.register-button:hover {
+    color: black;
+    background-color: var(--cl-white);
 }
 
 /* #endregion Footer */

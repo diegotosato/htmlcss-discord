@@ -9,12 +9,11 @@
             rel="stylesheet">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     </head>
     <body>
         <header>
             <div class="menu container d-flex">
-                <img id="logo_discord" src="./assets/img/logo.svg"
+                <img class="logo_discord" src="./assets/img/logo.svg"
                     alt="logo_discord">
 
                 <nav>
@@ -27,7 +26,7 @@
                     </ul>
                 </nav>
 
-                <button class="small-button access">Accedi</button>
+                <button class="small-button access-button">Accedi</button>
 
             </div>
         </header>
@@ -56,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <!-- /jumbotron -->S
+            <!-- /jumbotron -->
 
             <section id="invite" class="d-flex">
                 <div class="container d-flex content">
@@ -75,10 +74,8 @@
             </section>
             <!-- /invite section -->
 
-
             <div class="wave"></div>
 
-            
             <section id="find" class="bgc_gray d-flex">
                 <div class="content container d-flex">
                     <div class="content_text">
@@ -95,7 +92,6 @@
             <!-- /find section -->
 
             <div class="wave mirror"></div>
-
 
             <section id="fandom" class="d-flex">
                 <div class="content container d-flex">
@@ -115,7 +111,6 @@
             <!-- /fandom section -->
 
             <div class="wave"></div>
-
 
             <section id="technology" class="bgc_gray">
                 <div class="container tech-align">
@@ -149,7 +144,13 @@
                         <h3>Il tuo posto per parlare</h3>
                         <div class="language_selection d-flex">
                             <img src="./assets/img/ita.png" alt="italy_flag">
-                            Italiano <span class="arrow-down"></span>
+                            <form action="#">
+                                <select name="language">
+                                    <option value="italiano">Italiano</option>
+                                    <option value="inglese">Inglese</option>
+                                    <option value="francese">Francese</option>
+                                </select>
+                            </form>
                         </div>
                         <div class="socials d-flex">
                             <i class="fa">&#xf099;</i>
@@ -228,10 +229,10 @@
                 <!-- /.about -->
 
                 <div class="register d-flex">
-                    <img id="logo_discord" src="./assets/img/logo.svg"
+                    <img class="logo_discord" src="./assets/img/logo.svg"
                         alt="logo_discord">
                     <button
-                        class="small-button bgc-lightblue button-txt-w">Registrati</button>
+                        class="small-button bgc-lightblue button-txt-w register-button">Registrati</button>
                 </div>
                 <!-- /.register -->
             </div>
