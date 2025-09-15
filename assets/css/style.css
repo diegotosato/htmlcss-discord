@@ -52,6 +52,9 @@
     background-color: yellow;
 }
 
+
+
+
 /* header */
 
 header {
@@ -65,16 +68,17 @@ header {
     height: 100%;
 }
 
-.logo_discord {
-    width: 130px;
-    height: 40px;
-    background-color: var(--cl-white);
+#logo_discord {
+   display: block;
 }
 
-.nav {
-    width: 530px;
-    height: 40px;
-    background-color: var(--cl-white);
+nav {
+    
+}
+
+ul{
+    list-style: none;
+    gap: 2%;
 }
 
 .access {
